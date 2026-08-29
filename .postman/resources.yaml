@@ -1,0 +1,7 @@
+# Use this workspace to collaborate
+workspace:
+  id: 99a78cb3-1dd0-45af-8b94-b634ab8182ce
+
+localResources:
+  docs:
+    - ..\Chatbot\vendor\laravel\mcp\resources\boost\skills\mcp-development\references\app.md
