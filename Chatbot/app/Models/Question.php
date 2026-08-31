@@ -12,6 +12,7 @@ class Question extends Model
     protected $fillable = [
         'question',
         'category_id',
+        'sport_id',
         'keywords'
     ];
 
@@ -23,5 +24,10 @@ class Question extends Model
     public function answer()
     {
         return $this->hasOne(Answer::class);
+    }
+
+    public function sport()
+    {
+        return $this->belongsTo(Sport::class);
     }
 }
